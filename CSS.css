@@ -1,0 +1,15 @@
+.topo {
+    height:100px;
+    width:100%;
+    background-color:rgba(32, 36, 39, 0.89) }
+.textDiv {color: white;
+
+}
+.Buscar{
+    position: absolute;
+width: 736px;
+height: 20px;
+left: 330px;
+top: 30px;;
+
+}
