@@ -1,15 +1,136 @@
 .topo {
+    padding: 0;
     height:100px;
     width:100%;
     background-color:rgba(32, 36, 39, 0.89) }
-.textDiv {color: white;
+.textDiv {
+    color: white;
 
 }
-.Buscar{
+#txtBusca{
     position: absolute;
-width: 736px;
-height: 20px;
+width: 50%;
+height: 4%;
 left: 330px;
-top: 30px;;
+top: 30px;
 
+}
+#btnBusca{
+    position: absolute;
+    width:20px;
+    left:74%;
+    top: 6%;
+}
+.image-logo{
+    position: absolute;
+    width: 300px;
+    border:0;
+    top: -30px;
+    right: 940px;
+}
+
+.rodape{
+    float: left;
+}
+
+.menu{
+    text-decoration:none;
+    margin: 20px 10px 0px;
+    text-transform: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.controle-azul{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+.bem-vindo{
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    left: 280px;
+    top: 120px;
+    width: 700px;
+    line-height: 30px;
+    height: 800px;
+    font-weight:bold ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#jogos{
+    position: absolute;
+    text-decoration:none;
+    color: white;
+    left: 328px;
+    top: 70px;
+}
+
+#consoles{
+    position: absolute;
+    text-decoration:none;
+    color: white;
+    left: 420px;
+    top: 70px;
+}
+
+#promocoes{
+    position: absolute;
+    text-decoration:none;
+    color: white;
+    left: 540px;
+    top: 70px;
+}
+
+.carrinho{
+    position: absolute;
+    color: white;
+    width: 20px;
+    height: 20px;
+    left: 1000px;
+    top: 30px;
+}
+#conta{
+    position: absolute;
+    text-decoration:none;
+    color: white;
+    text-transform: none;
+    left: 1100px;
+    top: 30px;
+}
+#cadeira{
+    position: absolute;
+    text-decoration:none;
+    color: white;
+    left: 670px;
+    top: 70px;
+}
+.seta1{
+    position:absolute;
+    width:10px;
+    left: 380px;
+    top: 76px;
+}
+.seta2{
+    position:absolute;
+    width:10px;
+    left: 498px;
+    top: 76px;
+}
+.seta3{
+    position:absolute;
+    width:10px;
+    left: 632px;
+    top: 76px;
+}
+.seta4{
+    position:absolute;
+    width:10px;
+    left: 743px;
+    top: 76px;
+}
+.couteudo .carrosel{
+    width: 10%;
 }
