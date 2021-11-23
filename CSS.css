@@ -1,32 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
 .topo {
+    display: flex;
     padding: 0;
     height:100px;
     width:100%;
-    background-color:rgba(32, 36, 39, 0.89) }
-.textDiv {
-    color: white;
+    background-color:rgba(32, 36, 39, 0.89)
+}
 
-}
-#txtBusca{
+.txtBusca{
     position: absolute;
-width: 50%;
-height: 4%;
-left: 330px;
-top: 30px;
+    width: 50%;
+    height: 28px;
+    left: 330px;
+    top: 30px;
+    font-size: ;
+    background: url(foto/Lupa-de-pesquisa.png) center right no-repeat;
+    background-color: white;
+}
 
-}
-#btnBusca{
-    position: absolute;
-    width:20px;
-    left:74%;
-    top: 6%;
-}
 .image-logo{
     position: absolute;
     width: 300px;
     border:0;
     top: -30px;
     right: 940px;
+    left: 0%;
 }
 
 .rodape{
@@ -60,7 +63,7 @@ top: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#jogos{
+.jogos{
     position: absolute;
     text-decoration:none;
     color: white;
@@ -68,7 +71,7 @@ top: 30px;
     top: 70px;
 }
 
-#consoles{
+.consoles{
     position: absolute;
     text-decoration:none;
     color: white;
@@ -76,7 +79,7 @@ top: 30px;
     top: 70px;
 }
 
-#promocoes{
+.promocoes{
     position: absolute;
     text-decoration:none;
     color: white;
@@ -92,7 +95,7 @@ top: 30px;
     left: 1000px;
     top: 30px;
 }
-#conta{
+.conta{
     position: absolute;
     text-decoration:none;
     color: white;
@@ -100,7 +103,7 @@ top: 30px;
     left: 1100px;
     top: 30px;
 }
-#cadeira{
+.cadeira{
     position: absolute;
     text-decoration:none;
     color: white;
