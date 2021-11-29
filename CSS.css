@@ -18,7 +18,7 @@
     height: 28px;
     left: 330px;
     top: 30px;
-    font-size: ;
+    border-radius: 7px;
     background: url(foto/Lupa-de-pesquisa.png) center right no-repeat;
     background-color: white;
 }
@@ -36,104 +36,86 @@
     float: left;
 }
 
-.menu{
+#menu{
     text-decoration:none;
     margin: 20px 10px 0px;
     text-transform: none;
-    color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif ;
 }
-.controle-azul{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    
-}
 .bem-vindo{
-    position: absolute;
+    background: url(foto/Controle_Azul1.jpg) center no-repeat;
+    width: 100%;
+    height: 450px;
+    padding: 140px;
     color:#fff;
     text-align: center;
-    left: 280px;
-    top: 120px;
-    width: 700px;
-    line-height: 30px;
-    height: 800px;
     font-weight:bold ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.jogos{
+#menu .jogos{
     position: absolute;
     text-decoration:none;
     color: white;
-    left: 328px;
+    right: 70%;
     top: 70px;
 }
 
-.consoles{
+#menu .consoles{
     position: absolute;
     text-decoration:none;
     color: white;
-    left: 420px;
+    right: 61%;
     top: 70px;
 }
 
-.promocoes{
+#menu .promocoes{
     position: absolute;
     text-decoration:none;
     color: white;
-    left: 540px;
+    right: 51%;
     top: 70px;
 }
 
-.carrinho{
+#menu .carrinho{
     position: absolute;
     color: white;
     width: 20px;
     height: 20px;
-    left: 1000px;
+    right: 20%;
     top: 30px;
 }
-.conta{
+#menu .conta{
     position: absolute;
     text-decoration:none;
     color: white;
     text-transform: none;
-    left: 1100px;
+    right: 7%;
     top: 30px;
 }
-.cadeira{
+#menu .cadeira{
     position: absolute;
     text-decoration:none;
+    width: 0%;
     color: white;
-    left: 670px;
+    right: 48%;
     top: 70px;
 }
-.seta1{
-    position:absolute;
-    width:10px;
-    left: 380px;
-    top: 76px;
+#menu .destaque{
+    position: absolute;
+    text-decoration:none;
+    width: 0%;
+    color: white;
+    right: 40%;
+    top: 70px;
 }
-.seta2{
-    position:absolute;
-    width:10px;
-    left: 498px;
-    top: 76px;
-}
-.seta3{
-    position:absolute;
-    width:10px;
-    left: 632px;
-    top: 76px;
-}
-.seta4{
-    position:absolute;
-    width:10px;
-    left: 743px;
-    top: 76px;
-}
-.couteudo .carrosel{
-    width: 10%;
+
+.rodape {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    margin-top: 100%;
+    background-color:#C1C1C1;
+
 }
