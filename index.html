@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro site</title>
     <link rel="stylesheet" href="CSS.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
     
     
@@ -27,10 +31,11 @@
             <a class="jogos" href="jogos.html">Jogos</a>
             <a class="consoles" href="consoles.html">Consoles</a>
             <a class="promocoes" href="promocoes.html">Promoções</a>
-            <a href="#"><img class="carrinho" src="foto/carrinho.png"> </a>
+            <a href="#" title="Carrinho"><img class="carrinho" src="foto/carrinho.png"> </a>
             <a class="conta" href="#"> Cadastre-se</a>
             <a class="cadeira" href="cadeiras.html">Cadeiras</a>
             <a class="destaque" href="#">Destaques</a>
+            <a href='#'title="Login"><img class="login" src="foto/ic_baseline-person .png"></a>
 
         </nav>
         
@@ -38,17 +43,47 @@
     <div class="bem-vindo"> 
         <h1> Seja bem-vindo a nossa loja Game Mania.</h1>
     </div>
-    <div id= "itens-carrosel">
-        <div id="itens">
-            <div class="item"><img src="foto/teclado-carrosel.jpg"></div>
-            <div class="item"><img src="foto/Controle_Azul1.jpg"></div>
-            <div class="item"><img src="foto/teclado-carrosel.jpg"></div>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img class="d-block" src="foto/teclado-carrosel.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block " src="foto/controle-colorido-carrosel.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block " src="foto/teclado-carrosel 3.jpg" alt="Terceiro Slide">
+          </div>
         </div>
-    </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
 
     <footer> 
-        <div class="rodape"> 
-            <p>rua:joaquin santana</p>
+        <div id="rodape"> 
+            <p class="rua">Rua joaquin santana</p>
+            <p class="estado">São Paulo - SP</p>
+            <p class="cep">06530-02</p>
+            <p class="redes-sociais"> Nossas Redes Sociais</p>
+
+            <a class="facebook" href="facebook.com/gamemania"><img src="foto/icon_facebook.png" title="Facebook"></a>
+
+            <a class="whatsapp" href="wa.me/5511910876204"><img src="foto/icon_whatsapp.png" title="Whatsapp"></a>
+
+            <a class="instagram" href="instagram.com/gamemania"><img src="foto/icon_instagram.png" title="Instagram"></a>
         </div>
     </footer>
 </body>
